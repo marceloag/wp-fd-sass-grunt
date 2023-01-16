@@ -88,5 +88,46 @@
 </head>
 <body>
 
-    <header>  
+    <header>
+        <div class="row full collapse">
+            <div class="large-12 medium-12 small-12 columns">
+                <div class="slider">
+
+                    <div class="logo">
+                        <img src="<?php bloginfo('template_directory'); ?>/img/logo_header.png" alt="">
+                    </div>
+                    <ul class="example-orbit" data-orbit data-options="bullets:false;slide_number:false;animation:fade">
+                        <li>
+                            <img src="<?php bloginfo('template_directory'); ?>/img/slider_001.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row full collapse">
+            <div class="large-12 medium-12 small-12 columns menu large-text-center">
+                <div class="contain-to-grid sticky">
+                    <nav class="top-bar" data-topbar role="navigation">
+                        <ul class="title-area">
+                            <li class="name">
+                                <h1></h1>
+                            </li>
+
+                            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+                        </ul>
+                        <section class="top-bar-section">
+                            <ul>
+                               <li><a href="introduccion.html">Inicio</a></li>
+                                <li><a href="introduccion.html">Introducción</a></li>
+                                <li><a href="#">Ficha catastral</a></li>
+                                <li><a href="catalogo.html">Catálogo</a></li>
+                                <li><a href="contacto.html">Contacto</a></li>
+                                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> Buscador</a></li>
+                            </ul>
+                        </section>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </header>
