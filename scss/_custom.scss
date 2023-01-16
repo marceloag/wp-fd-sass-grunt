@@ -1,0 +1,402 @@
+$color1: #000;
+$color2: #fff;
+$color3: #001516;
+$color4: #002628;
+$color5: #84990a;
+$fonts1: 'Heebo';
+$fonts2: 'Roboto';
+
+.full {
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100% !important;
+}
+
+header {
+  .contenedor_logo {
+    background-color: $color3;
+
+    img {
+      object-fit: contain;
+      height: 150px;
+      width: 250px;
+    }
+  }
+
+  .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logo {
+      position: absolute;
+      width: 100%;
+      z-index: 99;
+      text-align: center;
+
+      img {
+        object-fit: contain;
+        width: 100%;
+        height: 200px;
+      }
+    }
+  }
+
+  .menu {
+    .contain-to-grid {
+      background-color: $color5;
+      z-index: 9999;
+    }
+
+    .contain-to-grid .top-bar {
+      margin: 0 auto;
+      max-width: 1600px;
+    }
+
+    .top-bar.expanded .title-area {
+      background-color: rgba(0, 0, 0, 0);
+    }
+
+    .top-bar {
+      background-color: rgba(0, 0, 0, 0);
+
+      .top-bar-section
+        .dropdown
+        li:not(.has-form):not(.active):hover
+        > a:not(.button) {
+        color: $color2;
+        background-color: rgba(0, 0, 0, 0);
+      }
+
+      .top-bar-section
+        .dropdown
+        li:not(.has-form):not(.active)
+        > a:not(.button) {
+        background-color: rgba(0, 0, 0, 0);
+        color: red;
+      }
+
+      .top-bar-section ul li:hover:not(.has-form) > a {
+        color: $color1;
+        background-color: rgba(0, 0, 0, 0);
+      }
+
+      /* Color icon-menu */
+      .toggle-topbar a {
+        color: $color2;
+      }
+
+      /* Color icon */
+      .toggle-topbar.menu-icon a span::after {
+        content: '';
+        display: block;
+        height: 0;
+        position: absolute;
+        margin-top: -8px;
+        top: 50%;
+        right: 0.9375rem;
+        box-shadow: 0 0 0 1px $color2, 0 7px 0 1px $color2, 0 14px 0 1px $color2;
+        width: 16px;
+      }
+
+      .top-bar-section {
+        a,
+        li {
+          background-color: rgba(0, 0, 0, 0);
+          color: $color2;
+          font-size: $fonts1;
+          font-size: 12px;
+          text-align: center;
+          min-width: 15%;
+          text-transform: uppercase;
+
+          @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+            min-width: 10%;
+          }
+
+          @media only screen and (max-width: 40em) {
+            width: auto;
+            font-size: 14px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+#contenedor_nosotros {
+  background-image: url(../img/fondo_nosotros.jpg);
+  background-position: right;
+  background-size: cover;
+
+  .contenedor_img {
+    padding: 50px 0px 50px 0px;
+
+    img {
+      object-fit: cover;
+      height: 400px;
+      width: 80%;
+      border-radius: 0px 10px 10px 0px;
+    }
+  }
+
+  .texto {
+    margin-right: 100px;
+    margin-top: 50px;
+
+    @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+      margin-right: 20px;
+    }
+
+    @media only screen and (max-width: 40em) {
+      margin-right: 0px;
+      margin-top: 10px;
+      padding: 10px;
+    }
+
+    h5 {
+      color: $color3;
+      font-size: $fonts1;
+      text-transform: uppercase;
+      font-size: 15px;
+    }
+
+    h2 {
+      font-size: $fonts2;
+      color: $color5;
+      line-height: 100%;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: $fonts1;
+      margin-top: 20px;
+    }
+
+    .button {
+      background-color: $color5;
+      border-radius: 50px;
+      font-size: $fonts1;
+    }
+  }
+}
+
+#logos_colaboradores {
+  padding: 20px;
+
+  li {
+    padding: 10px;
+
+    img {
+      object-fit: cover;
+      height: 150px;
+      width: 150px;
+
+      @media only screen and (max-width: 40em) {
+        object-fit: contain;
+      }
+    }
+  }
+}
+
+#contenedor_puestos_ranchos {
+  background-color: #f5f5f5;
+
+  .contendor_item {
+    margin-top: 3em;
+
+    .contenedor {
+      padding: 10px;
+
+      .puesto_rancho {
+        position: absolute;
+        width: 100%;
+        margin-top: 20px;
+        text-transform: uppercase;
+
+        .puesto {
+          background-color: $color4;
+          color: $color2;
+          padding: 5px 15px 5px 15px;
+          border-radius: 0px 5px 5px 0px;
+          font-family: $fonts2;
+        }
+
+        .rancho {
+          background-color: $color5;
+          color: $color2;
+          padding: 5px 15px 5px 15px;
+          border-radius: 0px 5px 5px 0px;
+          font-family: $fonts2;
+        }
+      }
+
+      .item:hover {
+        transform: scale(1.02);
+        transition: 0.3s;
+      }
+
+      .item {
+        position: relative;
+
+        .degradado {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background: rgb(2, 0, 36);
+          background: linear-gradient(
+            5deg,
+            rgba(0, 0, 0, 1) 0%,
+            rgba(255, 255, 255, 0) 68%
+          );
+          border-radius: 10px;
+        }
+
+        .texto {
+          position: absolute;
+          width: 100%;
+          bottom: 0;
+          padding: 10px;
+          z-index: 99;
+
+          h3 {
+            color: $color2;
+            margin: 0;
+            font-family: $fonts1;
+            font-size: 25px;
+          }
+
+          .lugar {
+            color: $color2;
+            margin: 0;
+            font-family: $fonts2;
+            font-size: 15px;
+          }
+        }
+
+        img {
+          object-fit: cover;
+          height: 280px;
+          width: 100%;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+
+  .button {
+    background-color: rgba(0, 0, 0, 0);
+    color: $color1;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 14px;
+  }
+
+  .button:hover {
+    color: $color5;
+  }
+}
+
+footer {
+  background-color: $color3;
+
+  .logo_footer {
+    margin-top: 2em;
+
+    img {
+      object-fit: contain;
+      height: 100px;
+      width: 150px;
+    }
+  }
+
+  .informacion {
+    ul,
+    li {
+      text-align: center;
+      color: $color2;
+      font-family: $fonts2;
+      list-style: none;
+    }
+  }
+}
+
+.texto_interior {
+  margin-top: 50px;
+
+  @media only screen and (max-width: 40em) {
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  h5 {
+    color: $color3;
+    font-size: $fonts1;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: $fonts2;
+    color: $color5;
+    line-height: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: $fonts1;
+    margin-top: 20px;
+  }
+
+  .button {
+    background-color: $color5;
+    border-radius: 50px;
+    font-size: $fonts1;
+  }
+
+  .formulario {
+    margin-top: 2em;
+  }
+
+  .contendeor_img {
+    img {
+      object-fit: cover;
+      height: 350px;
+      width: 100%;
+    }
+  }
+
+  .titulo {
+    .otros_nombres {
+      margin-top: 5px;
+      font-weight: bold;
+      color: $color3;
+      font-size: $fonts1;
+      font-size: 15px;
+    }
+
+    h3 {
+      font-size: $fonts2;
+      color: $color5;
+      line-height: 100%;
+      font-weight: bold;
+      text-transform: uppercase;
+
+      @media only screen and (max-width: 40em) {
+        margin-top: 2em;
+      }
+    }
+
+    .rancho {
+      background-color: $color5;
+      color: $color2;
+      padding: 5px;
+      border-radius: 5px;
+      font-family: $fonts2;
+    }
+  }
+}
