@@ -110,9 +110,10 @@ automatic_feed_links();
 	}
 
   //  AIzaSyDXV_14x9Fx9nm2-6JnLBE5JWLpNt1ALYY
-  function my_acf_init() {
-      acf_update_setting('google_api_key', 'AIzaSyDXV_14x9Fx9nm2-6JnLBE5JWLpNt1ALYY');
-  }
-  add_action('acf/init', 'my_acf_init');
+function my_acf_google_map_api( $api ){
+    $api['key'] = 'AIzaSyDXV_14x9Fx9nm2-6JnLBE5JWLpNt1ALYY';
+    return $api;
+}
+add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
 
 ?>
