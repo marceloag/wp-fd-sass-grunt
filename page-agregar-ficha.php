@@ -1,10 +1,15 @@
 <?php
 acf_form_head();
-get_header();
+get_header("interior");
 ?>
 
 <section>
-	<main role="main">
+  <div class="row full collapse">
+      <div class="large-12 medium-12 small-12 columns">
+          <img src="img/banner_separador.jpg" alt="">
+      </div>
+  </div>
+	<div class="large-11 medium-11 small-12 columns large-centered medium-centered">
 		<?php
 		while ( have_posts() ) : the_post(); ?>
 			<h1><?php the_title(); ?></h1>
@@ -23,7 +28,7 @@ get_header();
 			acf_form( $args );
 		endwhile;
 		?>
-	</main>
+	</div>
 </section>
 
 <?php get_footer(); ?>

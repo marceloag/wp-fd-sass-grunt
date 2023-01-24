@@ -85,35 +85,26 @@
 
 </head>
 <body>
-
- <header>
+    <header>
+        <div class="contenedor_logo text-center">
+            <img src="<?php bloginfo('template_directory'); ?>/img/logo_header.png" alt="Puestos y Ranchos">
+        </div>
         <div class="row full collapse">
-            <div class="large-12 medium-12 small-12 columns">
-                <div id="menu_interior">
-                    <div class="large-12 medium-12 small-12 columns">
-                        <nav class="top-bar" data-topbar role="navigation">
-                            <ul class="title-area">
-                                <li class="name">
-                                    <h1><a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/logo_aike.png" alt=""></a>
-                                    </h1>
-                                </li>
+            <div class="large-12 medium-12 small-12 columns menu large-text-center">
+                <div class="contain-to-grid sticky">
+                    <nav class="top-bar" data-topbar role="navigation">
+                        <ul class="title-area">
+                            <li class="name">
+                                <h1></h1>
+                            </li>
 
-                                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-                            </ul>
+                            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+                        </ul>
 
-                            <section class="top-bar-section">
-
-                              <?php wp_nav_menu( array('menu' => 'mainmenu','menu_class' => 'right', )); ?>
-                                <!-- <ul class="right">
-                                    <li><a href="index.html">Inicio</a></li>
-                                    <li><a href="nosotros.html">Nosotros</a></li>
-                                    <li><a href="blog.html">Nuestro Blog</a></li>
-                                    <li><a href="politica.html" class="activo">POLITICA DE CAMBIOS Y DEVOLUCIONES</a></li>
-                                </ul> -->
-
-                            </section>
-                        </nav>
-                    </div>
+                        <section class="top-bar-section">
+                          <?php wp_nav_menu( array('menu' => 'mainmenu','menu_class' => 'right', )); ?>
+                        </section>
+                    </nav>
                 </div>
             </div>
         </div>
