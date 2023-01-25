@@ -10,8 +10,9 @@ get_header("interior");
       </div>
   </div>
   <div class="row">
-    <div class="texto_interior">
+
       <div class="large-11 medium-11 small-12 columns large-centered medium-centered">
+        <div class="texto_interior">
         <?php
         while ( have_posts() ) : the_post(); ?>
           <h2><?php the_title(); ?></h2>
@@ -30,7 +31,7 @@ get_header("interior");
           acf_form( $args );
         endwhile;
         ?>
-      </div>
+        </div>
     </div>
   </div>
 </section>
