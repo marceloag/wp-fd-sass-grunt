@@ -20,7 +20,7 @@ get_header("interior");
           the_content();
           $args = [
             'new_post'        => [
-              'post_type'   => 'puestos_ranchos',
+              'post_type'   => 'puestosyranchos',
               'post_status' => 'pending'
             ],
             'post_id'         => 'new_post',
