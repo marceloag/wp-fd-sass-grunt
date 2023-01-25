@@ -1,5 +1,4 @@
-<?php get_header(); ?>
-
+<?php get_header("interior"); ?>
     <section>
         <div class="row full collapse">
             <div class="large-12 medium-12 small-12 columns">
@@ -97,9 +96,6 @@
 
             </div>
         </div>
-
-
-
     </section>
 
 <?php get_footer(); ?>
