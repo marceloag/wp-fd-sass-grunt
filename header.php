@@ -90,6 +90,7 @@
 </head>
 <body>
 <!-- Esto esta actualizado -->
+<h1>HOLA</h1>
     <header>
         <div class="row full collapse">
             <div class="large-12 medium-12 small-12 columns">
