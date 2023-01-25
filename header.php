@@ -119,14 +119,7 @@
                             <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
                         </ul>
                         <section class="top-bar-section">
-                            <ul>
-                               <li><a href="introduccion.html">Inicio</a></li>
-                                <li><a href="introduccion.html">Introducción</a></li>
-                                <li><a href="#">Ficha catastral</a></li>
-                                <li><a href="catalogo.html">Catálogo</a></li>
-                                <li><a href="contacto.html">Contacto</a></li>
-                                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> Buscador</a></li>
-                            </ul>
+                            <?php wp_nav_menu( array('menu' => 'mainmenu','menu_class' => 'center', )); ?>
                         </section>
                     </nav>
                 </div>

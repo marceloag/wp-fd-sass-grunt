@@ -104,7 +104,7 @@
                         </ul>
 
                         <section class="top-bar-section">
-                          <?php wp_nav_menu( array('menu' => 'mainmenu','menu_class' => 'right', )); ?>
+                          <?php wp_nav_menu( array('menu' => 'mainmenu','menu_class' => 'center', )); ?>
                         </section>
                     </nav>
                 </div>
