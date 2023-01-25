@@ -72,9 +72,11 @@
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <!-- Font Awesome -->
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-<!-- Web Fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a23eec1ac2.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a23eec1ac2.js" crossorigin="anonymous"></script>
 <!-- Facebook Image -->
 	<link rel="image_src" href="" />
 	<link rel="icon" href="<?php bloginfo('template_directory'); ?>/icon.ico" />
