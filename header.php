@@ -90,14 +90,14 @@
 </head>
 <body>
 <!-- Esto esta actualizado -->
-<h1>HOLA</h1>
     <header>
         <div class="row full collapse">
             <div class="large-12 medium-12 small-12 columns">
                 <div class="slider">
-
                     <div class="logo">
+                      <a href="<?php bloginfo("url");?>">
                         <img src="<?php bloginfo('template_directory'); ?>/img/logo_header.png" alt="">
+                      </a>
                     </div>
                     <ul class="example-orbit" data-orbit data-options="bullets:false;slide_number:false;animation:fade">
                         <li>
@@ -120,7 +120,7 @@
                             <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
                         </ul>
                         <section class="top-bar-section">
-                            <?php wp_nav_menu( array('menu' => 'mainmenu','menu_class' => 'right', )); ?>
+                            <?php wp_nav_menu( array('menu' => 'mainmenu','menu_class' => 'center', )); ?>
                         </section>
                     </nav>
                 </div>
