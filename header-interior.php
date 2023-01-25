@@ -89,7 +89,9 @@
 <body>
     <header>
         <div class="contenedor_logo text-center">
+          <a href="<?php bloginfo("url");?>">
             <img src="<?php bloginfo('template_directory'); ?>/img/logo_header.png" alt="Puestos y Ranchos">
+          </a>
         </div>
         <div class="row full collapse">
             <div class="large-12 medium-12 small-12 columns menu large-text-center">
