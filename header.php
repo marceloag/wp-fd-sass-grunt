@@ -119,10 +119,11 @@
                             <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
                         </ul>
                         <section class="top-bar-section">
-                            <?php wp_nav_menu( array('menu' => 'mainmenu','menu_class' => 'center', )); ?>
+                            <?php wp_nav_menu( array('menu' => 'mainmenu','menu_class' => 'right', )); ?>
                         </section>
                     </nav>
                 </div>
             </div>
         </div>
     </header>
+    <!-- END HEADER -->
