@@ -2,7 +2,7 @@
 
     <section>
         <div class="row full collapse">
-            <div class="large-12 medium-12 small-12 columns">
+            <div class="large-12 medium-12 small-12 columns featpage">
                 <?php the_post_thumbnail("pagefeat");?>
             </div>
         </div>
