@@ -1,21 +1,21 @@
 <?php get_header('interior'); ?>
 
-	  <section>
-			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <div class="row" id="interior">
+    <section>
+        <div class="row full collapse">
             <div class="large-12 medium-12 small-12 columns">
-                <div class="titulo">
-                    <h2><?php the_title();?></h2>
-                    <h5><?php echo get_field('subtitulo')?></h5>
-                </div>
-
-                <div class="texto">
-                    <?php the_content();?>
-                </div>
-
+                <img src="img/banner_nosotros.jpg" alt="">
             </div>
         </div>
-			<?php endwhile; endif; ?>
+
+        <div class="row">
+            <div class="large-10 medium-11 small-12 columns large-centered medium-centered">
+                    <div class="texto_interior">
+                        <h5>Patrimonio arquitectónico rural</h5>
+                        <h2><?php the_title(); ?></h2>
+                        <?php the_content();?>
+                    </div>
+            </div>
+        </div>
     </section>
 
 <?php get_footer(); ?>
