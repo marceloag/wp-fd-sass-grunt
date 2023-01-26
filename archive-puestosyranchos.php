@@ -12,22 +12,20 @@
         <ul class="large-block-grid-3  medium-block-grid-2 small-block-grid-2">
           <?php while (have_posts()) : the_post(); ?>
                         <li>
-                            <a href="#">
+                            <a href="<?php the_permalink();?>">
                                 <div class="contenedor">
                                     <div class="item">
-
                                         <div class="puesto_rancho">
                                             <span class="puesto">Puesto</span>
                                         </div>
-
                                         <div class="texto">
-                                            <h3><i class="fa-solid fa-location-dot"></i> Pingo</h3>
-                                            <span class="lugar">Tierra del Fuego</span>
+                                            <h3><i class="fa-solid fa-location-dot"></i><?php the_title();?></h3>
+                                            <span class="lugar"><?php get_field("comuna");?></span>
                                         </div>
 
                                         <span class="degradado"></span>
 
-                                        <img src="img/img_puesto.jpg" alt="">
+                                        <?php the_post_thumbnail("medium");?>
                                     </div>
                                 </div>
                             </a>
