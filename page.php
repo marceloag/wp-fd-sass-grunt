@@ -3,7 +3,7 @@
     <section>
         <div class="row full collapse">
             <div class="large-12 medium-12 small-12 columns">
-                <img src="img/banner_nosotros.jpg" alt="">
+                <?php the_post_thumbnail("pagefeat");?>
             </div>
         </div>
 
