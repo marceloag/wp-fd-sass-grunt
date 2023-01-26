@@ -19,7 +19,7 @@
                                             <span class="puesto">Puesto</span>
                                         </div>
                                         <div class="texto">
-                                            <h3><i class="fa-solid fa-location-dot"></i><?php the_title();?></h3>
+                                            <h3><i class="fa-solid fa-location-dot"></i> <?php the_title();?></h3>
                                             <span class="lugar"><?php echo the_field("comun");?></span>
                                         </div>
 
