@@ -147,9 +147,21 @@
       });
 
       })(jQuery);
+
+      function iniciaMapa(){
+        var coord = {lat: -33.4372, lng: -70.6506};
+        var map = new google.maps.Map(document.getElementById('map'),{
+          zoom: 4,
+          center: coord
+        });
+        var marker = new google.maps.Marker({
+          position: coord,
+          map: map
+        });
+      }
     </script>
         <script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXV_14x9Fx9nm2-6JnLBE5JWLpNt1ALYY&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXV_14x9Fx9nm2-6JnLBE5JWLpNt1ALYY&callback=iniciaMapa">
     </script>
 
 </body>
