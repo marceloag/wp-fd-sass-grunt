@@ -139,6 +139,7 @@
 
       // Render maps on page load.
       function iniciaMapa(){
+        alert("iniciandoMapa");
           $('.acf-map').each(function(){
               var map = initMap( $(this) );
           });
