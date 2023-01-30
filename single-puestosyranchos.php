@@ -52,6 +52,7 @@
                                     <th width="500">Mapa:</th>
                                     <td>
                                       <?php 
+                                        print_r(get_field('ubicacion'));
                                         $location = get_field('ubicacion');
                                         if( $location ): ?>
                                             <div class="acf-map" data-zoom="10">
