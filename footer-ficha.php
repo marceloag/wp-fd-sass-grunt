@@ -23,7 +23,19 @@
     <script src="<?php bloginfo('template_directory'); ?>/js/app.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/owl.carousel.min.js"></script>
     <script type="text/javascript">
+      (function( $ ) {
 
+      /**
+       * initMap
+       *
+       * Renders a Google Map onto the selected jQuery element
+       *
+       * @date    22/10/19
+       * @since   5.8.6
+       *
+       * @param   jQuery $el The jQuery element.
+       * @return  object The map instance.
+       */
       function initMap( $el ) {
 
           // Find marker elements within map.
@@ -133,8 +145,10 @@
               var map = initMap( $(this) );
           });
       });
+
+      })(jQuery);
     </script>
-    <script async
+        <script async
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXV_14x9Fx9nm2-6JnLBE5JWLpNt1ALYY&callback=initMap">
     </script>
 
