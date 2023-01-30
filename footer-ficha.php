@@ -22,7 +22,9 @@
     <script src="<?php bloginfo('template_directory'); ?>/bower_components/foundation/js/foundation.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/app.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/owl.carousel.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXV_14x9Fx9nm2-6JnLBE5JWLpNt1ALYY"></script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXV_14x9Fx9nm2-6JnLBE5JWLpNt1ALYY&callback=initMap">
+</script>
     <script type="text/javascript">
     (function( $ ) {
 
