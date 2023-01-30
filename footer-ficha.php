@@ -140,13 +140,13 @@
       // Render maps on page load.
       function iniciaMapa(){
         alert("iniciandoMapa");
-          $('#map').each(function(){
+          $('.acf-map').each(function(){
               var map = initMap( $(this) );
           });
       };
 
     </script>
-        <script async
+    <script async
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXV_14x9Fx9nm2-6JnLBE5JWLpNt1ALYY&callback=iniciaMapa">
     </script>
 

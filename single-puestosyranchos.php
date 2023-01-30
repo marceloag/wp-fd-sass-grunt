@@ -52,15 +52,12 @@
                                     <th width="500">Mapa:</th>
                                     <td>
                                       <?php 
-                                      $location = get_field('ubicacion');
-                                      if( $location ): ?>
-                                          <div class="acf-map" data-zoom="10">
-                                              <div class="marker" data-lat="<?php echo esc_attr($location['lat']); ?>" data-lng="<?php echo esc_attr($location['lng']); ?>"></div>
-                                          </div>
+                                        $location = get_field('ubicacion');
+                                        if( $location ): ?>
+                                            <div class="acf-map" data-zoom="10">
+                                                <div class="marker" data-lat="<?php echo esc_attr($location['lat']); ?>" data-lng="<?php echo esc_attr($location['lng']); ?>"></div>
+                                            </div>
                                       <?php endif; ?>
-                                      <div id="map">
-
-                                      </div>
                                         <!-- <div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2392.41009519422!2d-70.89923992275055!3d-53.156680755572616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdb2637f592fc0d9%3A0x1432269e02dd9821!2sCroop%20Agencia%20Digital!5e0!3m2!1ses!2scl!4v1673551775817!5m2!1ses!2scl' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe></div> -->
                                     </td>
                                 </tr>
