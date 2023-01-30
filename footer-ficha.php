@@ -25,7 +25,9 @@
     <script async
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXV_14x9Fx9nm2-6JnLBE5JWLpNt1ALYY&callback=initMap">
 </script>
+
     <script type="text/javascript">
+    (function( $ ) {
 
     /**
      * initMap
@@ -148,6 +150,7 @@
         });
     });
 
+    })(jQuery);
     </script>
 
 </body>
