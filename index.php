@@ -14,7 +14,7 @@
                             de Magallanes </h2>
                         <p>Es un proyecto que tiene como espíritu entregar a la comunidad una plataforma de búsqueda como también generar colectivamente un catastro-catálogo digital de puestos y ranchos asociados al patrimonio cultural industrial ganadero y forestal de Magallanes. Estas construcciones representan parte de la arquitectura rural de la Región de Magallanes y de La Antártica Chilena. </p>
 
-                        <a href="#" class="button">Leer más</a>
+                        <a href="<?php bloginfo("url");?>/puestos-y-ranchosde-magallanes" class="button">Leer más</a>
                     </div>
                 </div>
             </div>
