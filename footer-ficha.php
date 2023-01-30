@@ -149,6 +149,7 @@
       })(jQuery);
 
       function iniciaMapa(){
+        console.log("MAPA")
         var coord = {lat: -33.4372, lng: -70.6506};
         var map = new google.maps.Map(document.getElementById('map'),{
           zoom: 4,
