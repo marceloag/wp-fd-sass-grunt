@@ -96,7 +96,7 @@
                 <div class="slider">
                     <div class="logo">
                       <a href="<?php bloginfo("url");?>">
-                        <img src="<?php bloginfo('template_directory'); ?>/img/logo_header.png" alt="">
+                        <img src="<?php bloginfo('template_directory'); ?>/img/logo_header-min.png" alt="Puestos y Ranchos de Magallanes">
                       </a>
                     </div>
                     <ul class="example-orbit" data-orbit data-options="bullets:false;slide_number:false;animation:fade">
