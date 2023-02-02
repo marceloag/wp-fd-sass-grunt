@@ -19,6 +19,9 @@
                     </a>
                   </li>
               </ul>
+              <p class="text-center">
+                Este proyecto es financiado por del Fondo del Patrimonio Cultural del Servicio Nacional de Patrimonio Cultural, convocatoria 2021.
+              </p>
           </div>
     </div>
 
