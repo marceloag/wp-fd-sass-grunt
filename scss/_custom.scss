@@ -434,6 +434,12 @@ footer {
   }
   li {
     border-right: 1px solid #fff;
+    &:hover {
+      background-color: #002628;
+      a {
+        color: #fff;
+      }
+    }
   }
   li:last-child {
     border-right: none;
