@@ -42,7 +42,7 @@
                                     </div>
 
                                     <div class="texto">
-                                        <h3><i class="fa-solid fa-location-dot"></i> Pingo</h3>
+                                        <h3><i class="fa-solid fa-home"></i> Pingo</h3>
                                         <span class="lugar">Tierra del Fuego</span>
                                     </div>
 
@@ -64,7 +64,7 @@
                                     </div>
 
                                     <div class="texto">
-                                        <h3><i class="fa-solid fa-location-dot"></i> El Límite</h3>
+                                        <h3><i class="fa-solid fa-home"></i> El Límite</h3>
                                         <span class="lugar">Torres del Paine - Última esperanza</span>
                                     </div>
 
@@ -86,7 +86,7 @@
                                     </div>
 
                                     <div class="texto">
-                                        <h3><i class="fa-solid fa-location-dot"></i> El Chingue</h3>
+                                        <h3><i class="fa-solid fa-home"></i> El Chingue</h3>
                                         <span class="lugar">Torres del Paine - Última esperanza</span>
                                     </div>
 
@@ -108,7 +108,7 @@
                                     </div>
 
                                     <div class="texto">
-                                        <h3><i class="fa-solid fa-location-dot"></i> Pingo</h3>
+                                        <h3><i class="fa-solid fa-home"></i> Pingo</h3>
                                         <span class="lugar">Tierra del Fuego</span>
                                     </div>
 
@@ -130,7 +130,7 @@
                                     </div>
 
                                     <div class="texto">
-                                        <h3><i class="fa-solid fa-location-dot"></i> El Límite</h3>
+                                        <h3><i class="fa-solid fa-home"></i> El Límite</h3>
                                         <span class="lugar">Torres del Paine - Última esperanza</span>
                                     </div>
 
@@ -152,7 +152,7 @@
                                     </div>
 
                                     <div class="texto">
-                                        <h3><i class="fa-solid fa-location-dot"></i> El Chingue</h3>
+                                        <h3><i class="fa-solid fa-home"></i> El Chingue</h3>
                                         <span class="lugar">Torres del Paine - Última esperanza</span>
                                     </div>
 
@@ -174,7 +174,7 @@
                                     </div>
 
                                     <div class="texto">
-                                        <h3><i class="fa-solid fa-location-dot"></i> Pingo</h3>
+                                        <h3><i class="fa-solid fa-home"></i> Pingo</h3>
                                         <span class="lugar">Tierra del Fuego</span>
                                     </div>
 
@@ -196,7 +196,7 @@
                                     </div>
 
                                     <div class="texto">
-                                        <h3><i class="fa-solid fa-location-dot"></i> El Límite</h3>
+                                        <h3><i class="fa-solid fa-home"></i> El Límite</h3>
                                         <span class="lugar">Torres del Paine - Última esperanza</span>
                                     </div>
 
@@ -218,7 +218,7 @@
                                     </div>
 
                                     <div class="texto">
-                                        <h3><i class="fa-solid fa-location-dot"></i> El Chingue</h3>
+                                        <h3><i class="fa-solid fa-home"></i> El Chingue</h3>
                                         <span class="lugar">Torres del Paine - Última esperanza</span>
                                     </div>
 
