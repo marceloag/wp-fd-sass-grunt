@@ -428,3 +428,14 @@ footer {
   width: 600px;
   height: 400px;
 }
+#menu-mainmenu {
+  li a {
+    font-weight: bold;
+  }
+  li {
+    border-right: 1px solid #fff;
+  }
+  li:last-child {
+    border-right: none;
+  }
+}
